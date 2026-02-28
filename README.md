@@ -1,20 +1,21 @@
 📊 Samsung Global Sales – EDA & SQL Analysis
 📌 Project Overview
 
-This project performs Exploratory Data Analysis (EDA) and SQL-based business analysis on a Samsung Global Sales dataset.
-The objective is to analyze sales performance, identify revenue trends, evaluate product and regional performance, and extract actionable business insights.
+This project performs Exploratory Data Analysis (EDA) and SQL-based business analysis on a Samsung Global Sales dataset. The goal is to analyze revenue trends, identify top-performing products, evaluate regional performance, and generate business insights using Python and SQL.
 
-🎯 Objectives
+🎯 Project Objectives
 
-Analyze total revenue and growth trends
+Analyze overall revenue performance
 
-Identify top-performing products
+Identify top 5 revenue-generating products
 
-Evaluate regional revenue contribution
+Evaluate revenue distribution by region
 
-Perform correlation analysis between key variables
+Analyze monthly revenue trends
 
-Execute SQL queries to answer business questions
+Perform correlation analysis between revenue, pricing, and units sold
+
+Execute SQL queries to answer key business questions
 
 🛠️ Tools & Technologies Used
 
@@ -33,13 +34,19 @@ Jupyter Notebook
 Git & GitHub
 
 📂 Project Structure
+
 Samsung-Sales-EDA-SQL-Analysis/
-│
-├── EDA_process.py          # Data cleaning and exploratory analysis
-├── multivariate.py         # Correlation and advanced analysis
-├── business_queries.sql    # SQL business queries
-├── dataset.csv             # Sales dataset
-├── README.md               # Project documentation
+
+EDA_process.py → Data cleaning and exploratory analysis
+
+multivariate.py → Correlation and advanced analysis
+
+business_queries.sql → SQL queries for business insights
+
+dataset.csv → Sales dataset
+
+README.md → Project documentation
+
 📊 Exploratory Data Analysis (EDA)
 
 The following analysis was performed:
@@ -62,9 +69,7 @@ Unit Price
 
 Discount Percentage
 
-🗄️ SQL Business Queries
-
-The SQL file includes queries for:
+🗄️ SQL Business Queries Included
 
 Total Revenue Calculation
 
@@ -82,9 +87,9 @@ Average Discount by Region
 
 📈 Key Insights
 
-Revenue shows a steady growth trend over time
+Revenue shows steady growth over time
 
-Premium products contribute significantly to total revenue
+Premium products contribute the majority of total revenue
 
 Europe is the highest revenue-generating region
 
@@ -94,5 +99,4 @@ Discounts have minimal impact on overall revenue
 
 📌 Conclusion
 
-The analysis highlights strong revenue concentration in premium products and specific regions.
-Strategic pricing, focused marketing, and regional optimization can further enhance sales performance.
+The analysis highlights strong revenue contribution from premium products and specific regions. Data-driven pricing and targeted regional strategies can further improve overall sales performance.
