@@ -30,10 +30,15 @@ The objective is to analyze revenue trends, identify top-performing products, ev
 ## 📂 Project Structure
 Samsung-Sales-EDA-SQL-Analysis/
 │
+
 ├── EDA_process.py
+
 ├── multivariate.py
+
 ├── business_queries.sql
+
 ├── dataset.csv
+
 ├── README.md
 
 
